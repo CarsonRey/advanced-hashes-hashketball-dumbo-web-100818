@@ -150,6 +150,7 @@ def team_names
  teams << game_hash[:away][:team_name]
  teams
 end
+# rewrite with '.collect'
 
 def player_numbers(team_name)
   home = game_hash[:home][:team_name]
@@ -193,4 +194,18 @@ end
 rebounds
 end
 
+def most_points_scored
+  
+end
 
+def winning_team
+  
+end
+
+def player_with_longest_name
+  
+end
+
+def long_name_steals_a_ton?
+  
+end
